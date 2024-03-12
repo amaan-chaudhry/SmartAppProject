@@ -22,7 +22,7 @@ def home(request):
     for i in range (len(df)):
         Rate = InterchangeRate_Calc(i)
         #print(Msc_calc(Rate))
-    return render(request, "home.html")
+    return render(request, "AppSite/home.html")
  
 def InterchangeRate_Calc(Number):
     Barclays_F = 0
