@@ -1,3 +1,4 @@
+from django.db import models
 class User(AbstractUser):
     subscribe_newsletters = models.BooleanField(default=True)
     old_id = models.IntegerField(null=True, blank=True)
