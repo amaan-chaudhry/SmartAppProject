@@ -29,9 +29,9 @@ conn_str_params = {pair.split('=')[0]: pair.split('=')[1] for pair in conn_str.s
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': Amaan,
-        'HOST': smartappazure.postgres.database.azure.com,
-        'USER': Amaan,
-        'PASSWORD': Goldenmile*!,
+        'NAME': "Amaan",
+        'HOST': "smartappazure.postgres.database.azure.com",
+        'USER': "Amaan",
+        'PASSWORD': "Goldenmile*!",
     }
 }
